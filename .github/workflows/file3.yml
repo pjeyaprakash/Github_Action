@@ -7,7 +7,7 @@ name: Specific Push
 
 on: 
   push: 
-    - develop
+    branches: [develop]
   path:
     - "/src/**"
     -  "**.js"
