@@ -9,8 +9,8 @@ on:
   push: 
     branches: [develop]
   paths:
-    - "/src/**"
-    -  "**.js"
+    - '/src/**'
+    -  '**.js'
 
 
 jobs:
