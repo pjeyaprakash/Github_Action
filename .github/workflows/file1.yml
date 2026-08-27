@@ -1,0 +1,11 @@
+
+name: Practice
+
+on : workflow_dispatch
+
+job: 
+  Interview: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Greating
+        run: echo "helo world"
