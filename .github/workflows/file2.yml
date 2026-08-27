@@ -1,6 +1,6 @@
-name: Push Event
+name: Push_Event
 
-on: Push
+on: push
 
 jobs:
   job_name:
