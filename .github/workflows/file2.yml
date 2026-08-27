@@ -1,0 +1,10 @@
+name: Push Event
+
+on: Push
+
+jobs:
+  job_name:
+    runs-on: ubuntu-latest
+    strps:
+      - name: Greating
+        run: echo "Helo from Push Event"
