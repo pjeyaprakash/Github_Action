@@ -3,7 +3,7 @@ name: Practice
 
 on : workflow_dispatch
 
-job: 
+jobs: 
   Interview: 
     runs-on: ubuntu-latest
     steps: 
