@@ -1,0 +1,21 @@
+
+
+
+
+name: Specific Push
+
+
+on: 
+  push: [develop]
+  path:
+    - "/src/**"
+    -  "**.js"
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      name: nameeeeeeee
+      run: echo "heloooooooo world"
+    
