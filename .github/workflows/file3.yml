@@ -8,9 +8,8 @@ name: Specific Push
 on: 
   push: 
     branches: [develop]
-    paths:
-      - '/src/**'
-      -  '**.js'
+    paths-ignore:
+      -  '**.py'
 
 
 jobs:
