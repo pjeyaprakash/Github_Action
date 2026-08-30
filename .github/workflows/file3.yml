@@ -20,12 +20,16 @@ jobs:
         run: echo "heloooooooo world"
 
 
+---
+
 
 name: Workflow 2
 
 on: 
-  push:
+  push: 
     branches: [develop]
+    paths-ignore:
+      -  '**.py'
 
 jobs:
   build:
