@@ -18,4 +18,20 @@ jobs:
     steps:
       - name: nameeeeeeee
         run: echo "heloooooooo world"
+
+
+
+name: Workflow 2
+
+on: 
+  push:
+    branches: [develop]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: name
+        run: echo "second"
     
