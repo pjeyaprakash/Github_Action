@@ -1,0 +1,12 @@
+name: Push_Event
+
+on: 
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  job_name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greating
+        run: echo "Helo from Push Event"
